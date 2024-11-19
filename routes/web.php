@@ -20,9 +20,11 @@ use Illuminate\Support\Facades\Session;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/', [EventController::class, 'homepage'])->name('homepage');
+
 
 Route::get('/login', function () {
     Session::forget('user');

@@ -34,11 +34,11 @@
             </a>
             @if(Session::has('user'))
             <ul class="dropdown-menu dropdown-menu-right" role="menu">
-               <li>
+               <!-- <li>
                   <a href="profile.html">
                      <i class="fa fa-user"></i> Edit Profile
                   </a>
-               </li>
+               </li> -->
 
                <li class="divider"></li>
                <li>
@@ -58,7 +58,7 @@
 </div>
 <div class="logo">
    <a href="/homepage">
-      <img src="../images/logo_icon.png" alt="" />
+      <img src="../images/logo_icon.png" alt="" />ET
    </a>
 </div>
 <div class="logo-icon text-center">

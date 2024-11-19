@@ -55,27 +55,27 @@
                            <ul class="weather-widget">
                               <li>
                                  <a href="#" class="clearfix">
-                                    <i class="wi wi-day-sunny"></i> Start Date Time <span class=" pull-right">{{ date('d M Y, h:i A', strtotime($value->start_time)) }}</span>
+                                    <i class="fa fa-clock-o"></i> Start Date Time <span class=" pull-right">{{ date('d M Y, h:i A', strtotime($value->start_time)) }}</span>
                                  </a>
                               </li>
                               <li>
                                  <a href="#" class="clearfix">
-                                    <i class="wi wi-day-cloudy-windy"></i> End Date Time <span class=" pull-right">{{ date('d M Y, h:i A', strtotime($value->end_time)) }}</span>
+                                    <i class="fa fa-clock-o"></i> End Date Time <span class=" pull-right">{{ date('d M Y, h:i A', strtotime($value->end_time)) }}</span>
                                  </a>
                               </li>
                               <li>
                                  <a href="#" class="clearfix">
-                                    <i class="wi wi-cloudy-windy"></i> Venue <span class=" pull-right">{{$value->event_venue}}</span>
+                                    <i class="fa fa-home"></i> Venue <span class=" pull-right">{{$value->event_venue}}</span>
                                  </a>
                               </li>
                               <li>
                                  <a href="#" class="clearfix">
-                                    <i class="wi wi-night-alt-rain-mix"></i> Organizer <span class=" pull-right">{{$value->organizer_name}}</span>
+                                    <i class="fa fa-user"></i> Organizer <span class=" pull-right">{{$value->organizer_name}}</span>
                                  </a>
                               </li>
                               <li>
                                  <a href="#" class="clearfix">
-                                    <i class="wi wi-day-storm-showers"></i> Full Info <span class=" pull-right">{{$value->event_description}}</span>
+                                    <i class="fa fa-info"></i> Full Info <span class=" pull-right">{{$value->event_description}}</span>
                                  </a>
                               </li>
                            </ul>
